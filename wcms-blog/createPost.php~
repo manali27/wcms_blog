@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/style.css" /> 
+		<title>Create Post</title>
+	</head>
+	<body>
+		<div id="navbar">
+			<ul class="pull-left">
+		  		<li><a href="#">View Site</a></li>
+			  	<li><a href="createPost.php">Add New Post</a></li>
+			</ul>
+			<ul class="pull-right">
+				<li><a href="#">Welcome Manali</a></li>
+			</ul>
+		</div>
+				
+		<div id="main-div">
+			<h1>Add New Post</h1>
+			<form name="addPost-form">
+				<table cellspacing="5" cellpadding="3">
+					<tr>
+						<td>
+							<input type="text" name="title" id="title" size="40" placeholder="Enter post title"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<textarea name="content" id="content" rows="10" cols="48" placeholder="Enter the content"></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td><h2>Enter your credentials for authentication:</h2></td>
+					</tr>
+					<tr>
+						<td>
+							<input type="email" name="email" id="email" size="49" placeholder="Email"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="password" name="password" id="password" size="49" placeholder="Password"/>
+						</td>
+					</tr>
+					<tr>
+						<td align="center">
+							<input type="submit" id="submit" value="Publish" />
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,76 @@
+html, body {
+    	margin: 0;
+    	padding: 0;
+    	background-color: beige;
+}
+
+textarea {
+	resize: none;
+	font-size:11pt;
+}
+
+#title {
+	height:40px;
+	font-size:14pt;
+}
+
+#submit, #password, #email, #timestamp {
+	font-size:11pt;
+}
+
+#password, #email, #timestamp {
+	height:30px;
+}
+
+#navbar {
+	margin-bottom: 0;
+  	padding-left: 0;
+	list-style: none;
+	height: 43px;
+	font-size: 14pt;
+	background-color: #000;	
+}
+
+#navbar ul {
+    	margin: 0;
+    	padding: 0;
+    	overflow: hidden;
+}
+
+#navbar li {
+	display: block;
+    	position: relative;
+    	float: left;
+}
+
+#navbar li a {
+	position: relative;
+  	display: block;
+	padding: 10px 15px;
+	text-decoration: none;
+    	color: #fff;
+}
+
+#navbar li a:hover {
+	color: #000;
+	background-color: #fff;
+}
+
+.pull-right {
+	float: right; !important
+}
+
+.pull-left {
+	float: left; !important
+}
+
+#main-div {
+	position: relative;
+  	margin-left: 27%;
+  	margin-top: 4%;
+	display: table;
+	padding: 20px 50px 10px;
+    	-webkit-box-shadow: 0px 5px 10px #808080;
+    	-moz-box-shadow: 0px 5px 10px #808080;
+    	box-shadow: 0px 5px 10px #808080;
+}

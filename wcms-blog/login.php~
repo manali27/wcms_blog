@@ -1,0 +1,15 @@
+<html>
+	<head>
+		<title>Login</title>
+	</head>
+	<body>
+		<div align="center">
+			<form name="login-form">
+				<table cellspacing="3" cellpadding="5">
+					<tr>
+						<td><input type="text"
+				</table>
+			</form>
+		</div>
+	</body>
+</html>
